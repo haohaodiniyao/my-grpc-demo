@@ -6,9 +6,9 @@ package com.example.lib;
 /**
 * Validates {@code HelloRequest} protobuf objects.
 */
-public class HelloRequestValidator implements io.envoyproxy.pgv.ValidatorImpl<com.examples.lib.HelloRequest>{
+public class HelloRequestValidator implements io.envoyproxy.pgv.ValidatorImpl<com.example.lib.HelloRequest>{
 	public static io.envoyproxy.pgv.ValidatorImpl validatorFor(Class clazz) {
-		if (clazz.equals(com.examples.lib.HelloRequest.class)) return new HelloRequestValidator();
+		if (clazz.equals(com.example.lib.HelloRequest.class)) return new HelloRequestValidator();
 		
 		return null;
 	}
@@ -16,7 +16,7 @@ public class HelloRequestValidator implements io.envoyproxy.pgv.ValidatorImpl<co
 	
 	
 
-	public void assertValid(com.examples.lib.HelloRequest proto, io.envoyproxy.pgv.ValidatorIndex index) throws io.envoyproxy.pgv.ValidationException {
+	public void assertValid(com.example.lib.HelloRequest proto, io.envoyproxy.pgv.ValidatorIndex index) throws io.envoyproxy.pgv.ValidationException {
 	
 			io.envoyproxy.pgv.StringValidation.minLength(".HelloRequest.name", proto.getName(), 5);
 	

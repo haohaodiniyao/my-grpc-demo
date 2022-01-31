@@ -6,9 +6,9 @@ package com.example.lib;
 /**
 * Validates {@code HelloReply} protobuf objects.
 */
-public class HelloReplyValidator implements io.envoyproxy.pgv.ValidatorImpl<com.examples.lib.HelloReply>{
+public class HelloReplyValidator implements io.envoyproxy.pgv.ValidatorImpl<com.example.lib.HelloReply>{
 	public static io.envoyproxy.pgv.ValidatorImpl validatorFor(Class clazz) {
-		if (clazz.equals(com.examples.lib.HelloReply.class)) return new HelloReplyValidator();
+		if (clazz.equals(com.example.lib.HelloReply.class)) return new HelloReplyValidator();
 		
 		return null;
 	}
@@ -16,7 +16,7 @@ public class HelloReplyValidator implements io.envoyproxy.pgv.ValidatorImpl<com.
 	
 	
 
-	public void assertValid(com.examples.lib.HelloReply proto, io.envoyproxy.pgv.ValidatorIndex index) throws io.envoyproxy.pgv.ValidationException {
+	public void assertValid(com.example.lib.HelloReply proto, io.envoyproxy.pgv.ValidatorIndex index) throws io.envoyproxy.pgv.ValidationException {
 	// no validation rules for Message
 
 	

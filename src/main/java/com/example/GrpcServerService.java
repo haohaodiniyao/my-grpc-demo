@@ -1,8 +1,8 @@
 package com.example;
 
-import com.examples.lib.HelloReply;
-import com.examples.lib.HelloRequest;
-import com.examples.lib.SimpleGrpc;
+import com.example.lib.HelloReply;
+import com.example.lib.HelloRequest;
+import com.example.lib.SimpleGrpc;
 import io.grpc.stub.StreamObserver;
 import net.devh.boot.grpc.server.service.GrpcService;
 

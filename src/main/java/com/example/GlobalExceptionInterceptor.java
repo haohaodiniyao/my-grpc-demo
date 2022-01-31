@@ -1,6 +1,6 @@
 package com.example;
 
-import com.examples.lib.HelloReply;
+import com.example.lib.HelloReply;
 import io.envoyproxy.pgv.ReflectiveValidatorIndex;
 import io.envoyproxy.pgv.ValidationException;
 import io.envoyproxy.pgv.ValidatorIndex;
